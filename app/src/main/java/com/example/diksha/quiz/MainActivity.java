@@ -67,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
         ((RadioButton) radioGroup.getChildAt(1)).setText(q1.getOption2());
         ((RadioButton) radioGroup.getChildAt(2)).setText(q1.getOption3());
         ((RadioButton) radioGroup.getChildAt(3)).setText(q1.getOption4());
+        String Ques[]=new String[4];
+
+       /* for(int i=0;i<list.size();i++)
+        {
+            Questions q=list.get(i);
+            tv.setText(q.getQues());
+        }*/
        btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
